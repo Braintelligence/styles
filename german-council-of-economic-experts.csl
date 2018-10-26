@@ -259,7 +259,7 @@
     </choose>
     <choose>
       <if type="article-newspaper" match="any">
-        <text variable="publisher-place"/>
+        <text variable="publisher-place" prefix=", "/>
       </if>
     </choose>
     <choose>
